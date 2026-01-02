@@ -1,0 +1,155 @@
+@media screen and (max-width:992px){
+
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+header img{
+    width: 50%;
+    height: auto;
+}
+
+header .activites_border_dark_blue{
+    padding: 45px 45px 0 34px;
+}
+
+nav{
+    width: 50%;
+}
+
+nav ul{
+    flex-wrap: nowrap;
+}
+
+main{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.filtres{
+    width: 88%;
+}
+
+.filtre{
+    margin-right: 20px;
+    width: 30%;
+    font-size: 12px;
+}
+
+.filtres_container h2{
+   font-size: 20px;
+}
+
+.filtre span{
+    font-size: 15px;
+}
+
+
+.container_hebergement_populaire{
+    flex-direction: column;
+}
+
+#hebergements{
+    width: 96%;
+    margin-bottom: 30px;
+    padding: 3%;
+}
+
+
+.les_populaires{
+    width: 96%;
+    margin-left: 0px;
+    height: 278px;
+    padding: 3%;
+}
+
+.container_populaires_cards{
+    flex-direction: row;
+}
+
+.container_populaires_cards .card{
+    width: 30%;
+}
+
+.container_populaires_cards .card h3{
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+}
+
+.container_populaires_cards .card p{
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.legend7,
+.legend8{
+    word-break: break-word;
+    width: 80%;
+}
+
+.container_activites .card{
+    width: 22%;
+}
+
+.container_activites .card img{
+    height: 160px;
+}
+
+.legend_activites{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+	border: 1px solid #F2F2F2;
+	background-color: var(--dark-grey-color);
+	margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 45px;
+    padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
