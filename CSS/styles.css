@@ -5,8 +5,12 @@
     --dark-grey-color:#F2F2F2;  /*var(--dark-grey-color)*/
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-    font-family: Ralway, sans-serif;
+    font-family: Raleway, sans-serif;
     max-width: 1400px;
     margin: auto;
 }
@@ -104,7 +108,7 @@ label{
 input{
     height: 49px;
     padding: 10px;
-    font-family: Ralway, sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 550;
     font-size: 120%;
     border: 1px solid var(--dark-grey-color);
@@ -121,7 +125,7 @@ button{
     height: 49px;
     background-color: var(--dark-blue);
     border-radius: 0 15px 15px 0;
-    font-family: Ralway, sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 550;
     color: white;
     font: bold;  

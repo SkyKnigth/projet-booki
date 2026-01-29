@@ -1,4 +1,4 @@
-@media screen and (max-width:992px){
+@media screen and (max-width:1024px){
 
 header{
     width: 90%;
@@ -50,7 +50,7 @@ main{
 
 #hebergements{
     width: 96%;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     padding: 3%;
 }
 
@@ -68,17 +68,23 @@ main{
 
 .container_populaires_cards .card{
     width: 30%;
+    height: 170px;
+}
+
+.container_populaires_cards .card img{
+    height: 170px;
 }
 
 .container_populaires_cards .card h3{
     width: 100%;
     height: auto;
     margin: 5px 0;
+    font-size: 16px;
 }
 
 .container_populaires_cards .card p{
     margin-bottom: 0px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .legend7,
@@ -87,29 +93,49 @@ main{
     width: 80%;
 }
 
+#activites h2{
+    padding: 30px 0 20px 20px;
+}
+
+.container_activites{
+    padding: 0 25px 60px 25px;
+}
+
 .container_activites .card{
-    width: 22%;
+    width: 21%;
+    height: 310px;
+    
 }
 
 .container_activites .card img{
-    height: 160px;
+    height: 250px;
+   
 }
 
 .legend_activites{
-    padding-top: 0%;
-    padding-bottom: 0%;
     font-size: 16px;
+    padding-top: 3px;
+    margin-top: 3px;
+
 }
 
 footer{
     display: flex;
 	border: 1px solid #F2F2F2;
 	background-color: var(--dark-grey-color);
-	margin-left: 2.5%;
-    margin-right: 2.5%;
-    padding-top: 45px;
-    padding-left: 70px;
+	margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 0px;
+    padding-left: 20px;
+
+    
 }
+
+footer .aide{
+    width: 33%;
+}
+
+
 
 
 
