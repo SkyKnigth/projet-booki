@@ -131,6 +131,11 @@
     .les_populaires{
         height: 100%;
         padding: 0%;
+        width: 100%;
+    }
+
+    .entete_populaires{
+        padding: 0 18px 0 12PX;
     }
 
     .container_hebergement_populaire{
@@ -140,6 +145,7 @@
 
     .container_populaires_cards{
         flex-direction: column;
+        padding: 0 10PX 0 15PX;
     }
 
     .container_populaires_cards .card{
